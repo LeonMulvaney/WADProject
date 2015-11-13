@@ -1,0 +1,170 @@
+/*----------Nav Bar + Extras----------*/
+body{
+	font-family:ColabThi;
+}
+
+.row{
+	width:100%;
+}
+
+
+.jumbotron{
+	background-image:url('../Images/books.jpg');
+	background-attachment:;
+	background-size:cover;
+	height:500px;
+	width:100%;
+	margin-bottom:0px;
+
+}
+
+
+/*----------Background Colours & HR----------*/
+.topFooter{
+	background-color:#696969;
+	width:100%;
+	min-height:350px;	
+	text-align:center;
+}
+
+.bottomFooter{
+	background-color:#333;
+	width:100%;
+	text-align:center;
+}
+
+.myHr{
+	width:75%;	
+}
+
+.greyImageBackground{
+	background-image:url('../Images/grey.png');
+}
+
+/*----------Padding----------*/
+.smlPadding{
+	padding-top:10px;
+	padding-bottom:10px;		
+}
+
+.medPadding{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.lrgPadding{
+	padding-top:60px;
+	padding-bottom:60px;	
+	
+}
+
+.xlPadding{
+	padding-top:100px;
+	padding-bottom:100px;	
+}
+
+.medPaddingTop{
+	padding-top:40px;
+}
+
+.lrgPaddingTop{
+	padding-top:50px;
+}
+/*----------Buttons----------*/
+.squareBtn{
+	border-radius:0px;	
+	cursor: pointer;	
+}
+
+/*----------Text----------*/
+.whiteText{
+	color:#FFFFFF;
+}
+
+.redText{
+	color:#8B0000;
+}
+
+.greenText{
+	color:#006400;
+}
+
+.purpleText{
+	color:#663399;
+}
+.blueText{
+	color:#00008B;
+}
+.lightGreyText{
+	color:#696969;
+}
+
+.darkGreyText{
+	color:#333;
+}
+
+.whiteText:visited{
+	color:white;
+	text-decoration:none;
+}
+
+
+/*----------Images----------*/
+.footerImages{
+	width:15%;
+	height:auto;
+}
+
+.subjectsHomeImg{
+	width:60%;
+	height:auto;
+	opacity:0.8;	
+}
+
+.aboutHomeImg{
+	width:40%;
+	height:auto;
+	opacity:1.0;	
+}
+
+.xsmlLogo{
+	width:30px;
+	height:30px;
+}
+
+.smlLogo{
+	width:40px;
+	height:40px;
+}
+
+#map{
+	width:100%;
+	height:300px;
+	border:none;
+}
+
+#topArrowImg{
+	width:50%;
+	height:auto;
+}
+/*----------Image Transitions----------*/
+
+
+
+/*----------Custom Fonts----------*/
+@font-face {
+ font-family:ColabThi;
+ src: url(../fonts/ColabThi.otf);
+}
+
+@font-face {
+ font-family:ColabReg;
+ src: url(../fonts/ColabReg.otf);
+}
+
+
+
+
+
+
+
