@@ -5,10 +5,10 @@
 			<meta name="viewport" content="width=device-width, initial scale=1">
 			<link rel="stylesheet" href="css/bootstrap.min.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			
 	<link rel="shortcut icon" href="Images/icon.ico">			
 		</head>
 		<body>
+			<div class="loader"></div>
 			
 			<div class="navbar-fixed-top navbar-inverse" id="home">
 				<div class="container">
@@ -21,53 +21,59 @@
 					<div class="collapse navbar-collapse navHeaderCollapse"> 
 						<ul class="nav navbar-nav navbar-right navHover">
 							<li><a href="Index.html">HOME</a></li>
-								<li class="dropdown"> 														
-									<a href="#" data-toggle="dropdown" class="dropdown-toggle">SUBJECTS</a> 
-									<ul class="dropdown-menu">
-										<li><a href="subjects.html" class="hover">ALL</a></li>									
-										<li><a href="Geography.html" class="hover">GEOGRAPHY</a></li>
-										<li><a href="DCG.html">DCG</a></li>
-										<li><a href="Maths.html">MATHS</a></li>
-									</ul>
-								</li>
+							<li><a href="subjects.html">SUBJECTS</a></li>														
 							<li><a href="Contact.html">CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>	
 			
-			<div class=" container lrgPaddingTop">
-				<div class=" row ">
-					<div class="col-md-6 text-center"> 			
-						<h4>This section shall display the RSS feed...</h4> 
-					</div>
-					<div class="col-md-6 text-center"> 			
-					</div>				
-				</div>
-			</div>	
-				
-
-
-
-
-				<div class=" container ">
-					<div class=" row medPadding">
-						<div class="col-md-12 text-center smlPadding"> 
-
-						</div>					
-						<div class="col-md-4 text-center"> 
-							
-
+				<div class="container">
+					<div class="row lrgPadding text-center" id="top">
+						<div class="col-md-12">	
+							<h2>Welcome to the subjects Section!</h2>
+							<h4>Please choose a topic from the list below!</h4>
 						</div>
+					</div>
+				</div>
+
+					<div class=" row medPadding">					
+						<div class="col-md-4 text-center"> 							
+							<img class="subjectsImg" src="Images/red3.png" alt="red"
+							onclick="loadDCGData()"/>
+							<h3>DCG</h3>
+						</div>					
 						<div class="col-md-4 text-center"> 	
-					
+							<img class="subjectsImg" id="geographyToggle" onclick="loadGeoData()" src="Images/green3.png" alt="green" />
+							<h3>Geography</h3>	
+
 						</div>		
 						<div class="col-md-4 text-center"> 	
-					
+							<img class="subjectsImg" onclick ="loadMathsData()" src="Images/blue3.png" alt="blue" />
+							<h3>Maths</h3>	
 						</div>							
 					</div>
-				</div>					
+				</div>
+			</div>		
 
+			<div class="greyImageBackground">
+						<div class=" row medPadding">					
+							<div class="col-md-12 text-center" id="testDiv" > 							
+						
+	
+		
+							</div>							
+						</div>
+					</div>
+				</div>	
+			</div>
+				
+									
+
+				
+				
+				
+			
 				<div class=" container topFooter whiteText">
 					<div class=" row medPadding">
 						<div class="col-md-2 text-center"> 	
@@ -87,7 +93,7 @@
 								Contact<br />	
 								Services<br />	
 								Support<br />										
-								Privacy<br />									
+								Privacy<br />										
 						</div>		
 						<div class="col-md-1 text-left"> 	
 								<h4 class="">Subjects</h4>
@@ -122,19 +128,23 @@
 				<div class=" container bottomFooter whiteText">
 					<div class=" row medPadding">
 						<div class="col-md-6 text-center"> 			
-							<h4><img class="smlLogo" src="Images/icon.ico"> The Digital Education Foundation. </h4><br /> 					
+							<h4><img class="smlLogo" src="Images/icon.ico" /> The Digital Education Foundation. </h4><br /> 						
 						</div>
-						<div class="col-md-6 text-center"> 			
+						<div class="col-md-5 text-center"> 			
 							<h4> Copyright 2015 &copy; </h4></a>		
-						</div>				
+						</div>	
+						<div class="col-md-1 text-right"> 			
+							<a href ="#top" class="whiteText"><h4>Back to top</h4></a>		
+						</div>							
 					</div>
 				</div>
 
 
 						
-			<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-			<script src="js/bootstrap.js"></script>			
-			<script type="text/javascript" src="js/script.js"></script>
+			<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+			<script src="js/bootstrap.js"></script>	
+			<script type="text/javascript" src="script.js"></script>
+
 			
 			<script>
 

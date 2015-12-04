@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="geography.xsl" type="text/xsl"?>
+<?xml-stylesheet href="Maths.xsl" type="text/xsl"?>
+<?xml-stylesheet href="DCG.xsl" type="text/xsl"?>
+
+<Database>
+    <subject id="01">
+        <title>Geography</title>
+        <paper>
+            <paper1>2015 Higher Paper</paper1>
+            <paper2>2014 Higher Paper</paper2>
+        </paper>
+        <resource>
+            <resource1>Notes and Resources</resource1>
+            <resource2>Studynotes.ie</resource2>
+        </resource>
+        <exam>
+            <description>Geography has a written exam and a project </description>
+            <date>The exam is on the 15th of June </date>
+            <time>The exam begins at 9.30-12.00 </time>
+        </exam>
+    </subject>
+    
+    <subject id="02">
+        <title>DCG</title>
+        <paper>
+            <paper1>2015 Higher Paper Section A</paper1>
+            <paper2>2015 Higher Paper Section B</paper2>
+        </paper>
+        <resource>
+            <resource1>Notes and Resources</resource1>
+            <resource2>Studynotes.ie</resource2>
+        </resource>
+        <exam>
+            <description>DCG has a split written examination A and B </description>
+            <date>The exam is completed within one day on the 17th of June </date>
+            <time>10.30-13.00 and 14.00-15.30 on the same day </time>
+        </exam>
+    </subject>
+    
+    <subject id="03">
+        <title>Maths</title>
+        <paper>
+           <paper1>2015 Higher Paper One</paper1>
+           <paper2>2015 Higher Paper Two</paper2>
+        </paper>
+        <resource>
+            <resource1>Notes and Resources</resource1>
+            <resource2>Studynotes.ie</resource2>
+        </resource>
+        <exam>
+            <description>There are two mathematics papers </description>
+            <date>The dates of the exams are the 5th of June and 6th of June </date>
+            <time>The time of the exams are 9.30-12.00 and 10.00-12.30</time>
+        </exam>
+    </subject>
+</Database>

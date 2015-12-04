@@ -6,9 +6,13 @@
 			<link rel="stylesheet" href="css/bootstrap.min.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			
-	<link rel="shortcut icon" href="Images/icon.ico">			
+	<link rel="shortcut icon" href="Images/icon.ico">	
+	<script>
+		
+	</script>
 		</head>
 		<body>
+			<div class="loader"></div>
 			
 			<div class="navbar-fixed-top navbar-inverse" id="home">
 				<div class="container">
@@ -21,32 +25,16 @@
 					<div class="collapse navbar-collapse navHeaderCollapse"> 
 						<ul class="nav navbar-nav navbar-right navHover">
 							<li><a href="Index.html">HOME</a></li>
-								<li class="dropdown"> 														
-									<a href="#" data-toggle="dropdown" class="dropdown-toggle">SUBJECTS</a> 
-									<ul class="dropdown-menu">
-										<li><a href="subjects.html" class="hover">ALL</a></li>									
-										<li><a href="Geography.html" class="hover">GEOGRAPHY</a></li>
-										<li><a href="DCG.html">DCG</a></li>
-										<li><a href="Maths.html">MATHS</a></li>
-									</ul>
-								</li>
+							<li><a href="subjects.html">SUBJECTS</a></li>														
 							<li><a href="Contact.html">CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>	
 			
-			<div class=" container lrgPaddingTop" id="top">
-				<div class=" row ">
-					<div class="col-md-6 text-center"> 			
-						<h4>This section shall display the RSS feed...</h4> 
-					</div>
-					<div class="col-md-6 text-center"> 			
-					</div>				
-				</div>
-			</div>	
+	
 				
-			<div class="jumbotron">
+			<div class="jumbotron" id="top">
 				<div class="container">
 					<h2 class="whiteText">
 					Welcome to <br />
@@ -129,15 +117,15 @@
 					</div>
 					<div class=" row medPadding">					
 						<div class="col-md-4 text-center"> 							
-							<img class="subjectsHomeImg" src="Images/red3.png" alt="red" /> 
+							<a href="subjects.html"><img class="subjectsHomeImg" src="Images/red3.png" alt="red" /></a>
 							<h3>DCG</h3>	
 						</div>					
 						<div class="col-md-4 text-center"> 	
-							<img class="subjectsHomeImg" src="Images/green3.png" alt="green" />
+							<a href="subjects.html"><img class="subjectsHomeImg" src="Images/green3.png" alt="green" /></a>
 							<h3>Geography</h3>							
 						</div>		
 						<div class="col-md-4 text-center"> 	
-							<img class="subjectsHomeImg" src="Images/blue3.png" alt="blue" />	
+							<a href="subjects.html"><img class="subjectsHomeImg" src="Images/blue3.png" alt="blue" /></a>
 							<h3>Maths</h3>					
 						</div>							
 					</div>
@@ -213,9 +201,9 @@
 
 
 						
-			<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+			<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 			<script src="js/bootstrap.js"></script>	
-			<script type="text/javascript" src="js/script.js"></script>
+			<script type="text/javascript" src="script.js"></script>
 
 			
 			<script>
