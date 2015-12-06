@@ -174,3 +174,7 @@ $(window).load(function() {
 	$(".loader").fadeOut("slow");
 })
 
+function submitConfirm(){
+
+    alert("Thanks for your submission, your details shall be added to our database and we shall email you shortly!");
+}

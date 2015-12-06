@@ -44,7 +44,7 @@
 			<div class="container medPadding" id="contact">
 			<h3 class="text-center"> Become a member now!</h3>
 			
-				<form role="form" action="Contact.php" method="post" >
+				<form role="form" action="Contact.php" method="post" id="signupForm">
 					
 					
 						<label for="name">Name:</label>
@@ -63,7 +63,7 @@
 					
 					
 						
-							<button type="submit" class="btn submitButton squareBtn ">Submit</button>
+							<button type="submit" class="btn submitButton squareBtn" onclick ="submitConfirm()">Submit</button>
 						
 				</form>
 			</div>				

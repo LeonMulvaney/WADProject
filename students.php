@@ -42,7 +42,7 @@ if (file_exists('students.xml')) {
     //displaying the element in proper format
     
 } else {
-    exit('Failed to open students.xml.');
+    echo 'Failed to open students.xml.';
 }
     file_put_contents('students.xml', $xml->asXML());
     

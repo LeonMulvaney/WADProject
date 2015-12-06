@@ -13,7 +13,7 @@
 			</head>
 			<body>
 				<!--1. All Subject titles-->
-				<h2>Subject title:</h2>
+				<h2>Subject Title:</h2>
 				<xsl:apply-templates select="/Database/subject/title[text()='Geography']"/>
 				
 				<!--2. educational links-->
@@ -23,7 +23,7 @@
 				<xsl:apply-templates select="/Database/subject/title[text()='Geography']/../paper/paper2"/>
 				
 				<!--3. All Study Resources-->
-				<h2>Study information :</h2>
+				<h2>Study Information :</h2>
 				<xsl:apply-templates select="/Database/subject/title[text()='Geography']/../resource/resource1"/>
 				<h4></h4>
 				<xsl:apply-templates select="/Database/subject/title[text()='Geography']/../resource/resource2"/>
